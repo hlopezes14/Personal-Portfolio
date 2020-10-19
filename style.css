@@ -1,0 +1,557 @@
+/*
+                    SMALL SCREENS 
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+*/
+@media screen and (max-width:640px){
+    #container{
+        display: flex;
+        flex-direction: row;
+        height: 100vh;
+    }
+    
+    #footer {
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        height: auto;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-bottom: 10px;
+        padding-left: 5px;
+    }
+    
+    .footer-img{
+        margin-top: -5px;
+        height: 25px;
+        width: 25px;
+    }
+    
+    .footer-img:hover{
+        transform:translate(0px,-5px);
+        filter: brightness(0) saturate(100%) invert(76%) sepia(49%) saturate(3187%) hue-rotate(67deg) brightness(91%) contrast(88%);
+
+    }
+
+
+
+    .about-title{
+        margin-left: -50px;    
+    }
+
+    .body{
+        margin-top: 10px;
+        font-size: 17.5px;
+    }
+    
+    .footer-text{
+        margin: 10px;
+        margin-top:-5px;
+        font-size:15px;
+    }
+    
+    .header-item{
+        margin: 20px;
+        font-size:15px;
+    }
+    
+    .header-item:hover{
+        filter: brightness(0) saturate(100%) invert(76%) sepia(49%) saturate(3187%) hue-rotate(67deg) brightness(91%) contrast(88%);
+
+    }
+    
+    .header-img{
+        height: 30px;
+        width: 30px;
+        margin: 17.5px 0px 0px 20px;
+    }
+    
+    .header-img:hover{
+        filter: brightness(0) saturate(100%) invert(76%) sepia(49%) saturate(3187%) hue-rotate(67deg) brightness(91%) contrast(88%);
+
+    }
+    
+    .image{
+        margin: 5px;
+        height: 50px;
+        width: 50px;
+    }
+    
+    .image:hover{
+        transform: translate(5px,0px);
+        filter: brightness(0) saturate(100%) invert(76%) sepia(49%) saturate(3187%) hue-rotate(67deg) brightness(91%) contrast(88%);
+    }
+    
+    
+    .items{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+    
+    .name{
+        font-size: 35px;
+    }
+    
+    .left{
+        width: 50%;
+        margin-top: 20%;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .links{
+        color:white;
+        font-weight: bold;
+    }
+    .links:hover{
+        filter: brightness(0) saturate(100%) invert(76%) sepia(49%) saturate(3187%) hue-rotate(67deg) brightness(91%) contrast(88%);
+    }
+    
+    .list-item{
+        font-size: 22.5px;
+    }
+    
+    .list-item:hover{
+        transform: translate(5px,0px);
+        filter: brightness(0) saturate(100%) invert(76%) sepia(49%) saturate(3187%) hue-rotate(67deg) brightness(91%) contrast(88%);
+    }
+
+    .portfolio-title{
+        margin-left:25%;
+    }
+
+    .portfolio-subtitle{
+        font-size: 40px;
+    }
+
+    .portfolio-img{
+        width:300px;
+        height:200px;
+    }
+
+    .project-title{
+        font-size: 30px;
+    }
+    
+    .profile-pic{
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+    }
+    
+    .right{
+        width: 50%;
+        float: left;
+        margin-top: 20%;
+    }
+    
+    .school-details{
+        font-size: 18px;
+    }
+    
+    .text{
+        color: white;
+        font-family: 'Menlo','Times New Roman', Times, serif;
+    }
+    
+    .title{
+        font-size: 40px;
+        margin-top:25px;
+    }
+    
+    body{
+        background-color: black;
+        position: relative; 
+        overflow-y: visible;
+        width: 100%;
+    }
+
+    header{
+        width: 100%;
+        background-color: black;
+        display: flex;
+    }
+
+    iframe{
+        width:300px;
+        height:200px;
+    }
+}
+
+/*
+                    MEDIUM SCREENS 
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+*/
+@media screen and (min-width: 640px) and (max-width:1024px){
+    #container{
+        display: flex;
+        flex-direction: row;
+        height: 100vh;
+    }
+    
+    #footer {
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        height: auto;
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .footer-img{
+        margin-top: -5px;
+        margin-right: 5px;
+        height: 35px;
+        width: 35px;
+    }
+    
+    .footer-img:hover{
+        transform:translate(0px,-10px);
+        filter: brightness(0) saturate(100%) invert(76%) sepia(49%) saturate(3187%) hue-rotate(67deg) brightness(91%) contrast(88%);
+
+    }
+
+    .about-title{
+        margin-left: -100px;    
+    }
+
+    .body{
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    
+    .footer-text{
+        margin: 10px;
+        margin-top:2.5px;
+        font-size:15px;
+    }
+    
+    .header-item{
+        margin: 25px;
+        font-size:20px;
+    }
+    
+    .header-item:hover{
+        filter: brightness(0) saturate(100%) invert(76%) sepia(49%) saturate(3187%) hue-rotate(67deg) brightness(91%) contrast(88%);
+
+    }
+    
+    .header-img{
+        height: 35px;
+        width: 35px;
+        margin: 17.5px 0px 0px 20px;
+    }
+    
+    .header-img:hover{
+        filter: brightness(0) saturate(100%) invert(76%) sepia(49%) saturate(3187%) hue-rotate(67deg) brightness(91%) contrast(88%);
+
+    }
+    
+    .image{
+        margin: 10px;
+        height: 70px;
+        width: 70px;
+    }
+    
+    .image:hover{
+        transform: translate(0px,15px);
+        filter: brightness(0) saturate(100%) invert(76%) sepia(49%) saturate(3187%) hue-rotate(67deg) brightness(91%) contrast(88%);
+
+    }
+    
+    
+    .items{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+    
+    .name{
+        font-size: 75px;
+    }
+    
+    .left{
+        width: 50%;
+        margin-top: 30%;
+        margin-right: 10px;
+        text-align: right;
+    }
+
+    .links{
+        color:white;
+        font-weight: bold;
+    }
+    .links:hover{
+        filter: brightness(0) saturate(100%) invert(76%) sepia(49%) saturate(3187%) hue-rotate(67deg) brightness(91%) contrast(88%);
+    }
+    
+    .list-item{
+        font-size: 25px;
+    }
+    
+    .list-item:hover{
+        transform: translate(15px,0px);
+        filter: brightness(0) saturate(100%) invert(76%) sepia(49%) saturate(3187%) hue-rotate(67deg) brightness(91%) contrast(88%);
+    }
+
+    .portfolio-title{
+        margin-left:25%;
+    }
+
+    .portfolio-subtitle{
+        font-size: 40px;
+    }
+
+    .portfolio-img{
+    	width:500px;
+        height:400px;
+    }
+
+    .project-title{
+        font-size: 35px;
+        font-weight: bold;
+    }
+    
+    .profile-pic{
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+    }
+    
+    .right{
+        width: 50%;
+        float: left;
+        margin-top: 30%;
+    }
+    
+    .school-details{
+        font-size: 30px;
+    }
+    
+    .text{
+        color: white;
+        font-family: 'Menlo','Times New Roman', Times, serif;
+    }
+    
+    .title{
+        font-size: 60px;
+        margin-top:25px;
+    }
+    
+    body{
+        background-color: black;
+        position: relative; 
+        overflow-y: visible;
+        width: 100%;
+    }
+
+    header{
+        width: 100%;
+        background-color: black;
+        display: flex;
+    }
+
+    iframe{
+        width:500px;
+        height:400px;
+    }
+    
+}
+
+/*
+                    BIG SCREENS 
+----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
+*/
+@media screen and (min-width: 1024px){
+    #container{
+        display: flex;
+        flex-direction: row;
+        height: 100vh;
+    }
+    
+    #footer {
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        height: auto;
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .footer-img{
+        margin-top: -5px;
+        margin-right: 10px;
+        height: 35px;
+        width: 35px;
+    }
+    
+    .footer-img:hover{
+        transform:translate(0px,-15px);
+        filter: brightness(0) saturate(100%) invert(76%) sepia(49%) saturate(3187%) hue-rotate(67deg) brightness(91%) contrast(88%);
+
+    }
+
+    .about-title{
+        margin-left: -100px;    
+    }
+
+    .body{
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    
+    .footer-text{
+        margin: 10px;
+        margin-top:2.5px;
+        font-size:15px;
+    }
+    
+    .header-item{
+        margin: 25px;
+        font-size:15px;
+    }
+    
+    .header-item:hover{
+        filter: brightness(0) saturate(100%) invert(76%) sepia(49%) saturate(3187%) hue-rotate(67deg) brightness(91%) contrast(88%);
+
+    }
+    
+    .header-img{
+        height: 35px;
+        width: 35px;
+        margin: 17.5px 0px 0px 20px;
+    }
+    
+    .header-img:hover{
+        filter: brightness(0) saturate(100%) invert(76%) sepia(49%) saturate(3187%) hue-rotate(67deg) brightness(91%) contrast(88%);
+
+    }
+    
+    .image{
+        margin: 10px;
+        height: 80px;
+        width: 80px;
+    }
+    
+    .image:hover{
+        transform: translate(0px,15px);
+        filter: brightness(0) saturate(100%) invert(76%) sepia(49%) saturate(3187%) hue-rotate(67deg) brightness(91%) contrast(88%);
+
+    }
+    
+    
+    .items{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+    
+    .name{
+        font-size: 85px;
+    }
+    
+    .left{
+        width: 50%;
+        margin-top: 15%;
+        margin-right: 10px;
+        text-align: right;
+    }
+
+    .links{
+        color:white;
+        font-weight: bold;
+    }
+    .links:hover{
+        filter: brightness(0) saturate(100%) invert(76%) sepia(49%) saturate(3187%) hue-rotate(67deg) brightness(91%) contrast(88%);
+    }
+    
+    .list-item{
+        font-size: 35px;
+    }
+    
+    .list-item:hover{
+        transform: translate(15px,0px);
+        filter: brightness(0) saturate(100%) invert(76%) sepia(49%) saturate(3187%) hue-rotate(67deg) brightness(91%) contrast(88%);
+    }
+
+    .portfolio-title{
+        margin-left:25%;
+    }
+
+    .portfolio-subtitle{
+        font-size: 40px;
+    }
+
+    .portfolio-img{
+	width:400px;
+        height:300px;
+    }
+
+    .project-title{
+        font-size: 35px;
+        font-weight: bold;
+    }
+    
+    .profile-pic{
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+    }
+    
+    .right{
+        width: 50%;
+        float: left;
+        margin-top: 15%;
+    }
+    
+    .school-details{
+        font-size: 40px;
+    }
+    
+    .text{
+        color: white;
+        font-family: 'Menlo','Times New Roman', Times, serif;
+    }
+    
+    .title{
+        font-size: 65px;
+        margin-top:25px;
+    }
+    
+    body{
+        background-color: black;
+        position: relative; 
+        overflow-y: visible;
+        width: 100%;
+    }
+
+    header{
+        width: 100%;
+        background-color: black;
+        display: flex;
+    }
+
+    iframe{
+        width:400px;
+        height:300px;
+    }
+    
+}
